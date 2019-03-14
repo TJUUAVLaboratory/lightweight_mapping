@@ -1,6 +1,8 @@
 This is the implementation of our paper: "Building Maps for Autonomous Navigation Using Sparse Visual SLAM Features" in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017. Our implementation is built on the top of the open-source stereo SLAM [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). It runs in ROS （developed in version of indigo）. Eigen, OpenCV, and CGAL are needed. 
 
-
+[图片1](doc/幻灯片2.JPG)
+[图片2](doc/幻灯片3.JPG)
+[图片3](doc/幻灯片4.JPG)
 
 ## 环境配置 依赖库安装
 
