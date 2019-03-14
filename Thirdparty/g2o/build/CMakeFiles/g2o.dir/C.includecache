@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ygling2008/new_catkin_ws/src/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.c
+/home/ubuntu/coding/ros-mapping-ws/src/triangle_mapping/Thirdparty/g2o/g2o/stuff/os_specific.c
 os_specific.h
-/home/ygling2008/new_catkin_ws/src/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
+/home/ubuntu/coding/ros-mapping-ws/src/triangle_mapping/Thirdparty/g2o/g2o/stuff/os_specific.h
 
-/home/ygling2008/new_catkin_ws/src/ORB_SLAM2/Thirdparty/g2o/g2o/stuff/os_specific.h
+/home/ubuntu/coding/ros-mapping-ws/src/triangle_mapping/Thirdparty/g2o/g2o/stuff/os_specific.h
 stdio.h
 -
 stdlib.h

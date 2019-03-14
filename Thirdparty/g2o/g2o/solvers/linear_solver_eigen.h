@@ -53,7 +53,11 @@ class LinearSolverEigen: public LinearSolver<MatrixType>
   public:
     typedef Eigen::SparseMatrix<double, Eigen::ColMajor> SparseMatrix;
     typedef Eigen::Triplet<double> Triplet;
-    typedef Eigen::PermutationMatrix<Eigen::Dynamic, Eigen::Dynamic, SparseMatrix::Index> PermutationMatrix;
+    //报Eigen3的错，然后修改了
+    //typedef Eigen::PermutationMatrix<Eigen::Dynamic, Eigen::Dynamic, SparseMatrix::Index> PermutationMatrix; //之前的
+    typedef Eigen::PermutationMatrix<Eigen::Dynamic, Eigen::Dynamic, SparseMatrix::StorageIndex> PermutationMatrix;
+    
+
     /**
      * \brief Sub-classing Eigen's SimplicialLDLT to perform ordering with a given ordering
      */

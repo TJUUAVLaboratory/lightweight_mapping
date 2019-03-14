@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(light_mapping)
+project(mapping_triangle)
 find_package(catkin REQUIRED COMPONENTS
     pcl_conversions
     pcl_ros

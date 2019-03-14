@@ -72,6 +72,7 @@ public:
     ~ImageMeasurement() { ;}
 };
 
+// 双目的image buffer
 std::list<ImageMeasurement> image0Buf;
 std::list<ImageMeasurement> image1Buf;
 std::mutex mMutexImg0;
@@ -87,7 +88,7 @@ int main(int argc, char **argv)
     ros::init(argc, argv, "Stereo");
     ros::start();
     ros::NodeHandle nh("~") ;
-    string packagePath = ros::package::getPath("light_mapping");
+    string packagePath = ros::package::getPath("mapping_triangle");
 
     string dictPath = packagePath + "//Vocabulary//ORBvoc.bin" ;
     string configPath = packagePath + "//config//KITTI05.yaml";

@@ -3,9 +3,9 @@
 # Bag Info
 preRectified: 1
 startTime: 8
-bagPath: "/media/ygling2008/DATA/KITTI/stereo/05/"
+bagPath: "/home/ubuntu/dataset/kitti-odom/05/"
 lidarPath: "/media/ygling2008/DATA/KITTI/lidar/05/velodyne/"
-gtPoseFile: "/media/ygling2008/DATA/KITTI/poses/05.txt"
+gtPoseFile: "/home/ubuntu/dataset/kitti-odom/groundtruth_poses/05.txt"
 imageTotalNum: 2760
 flipStereo: 0
 

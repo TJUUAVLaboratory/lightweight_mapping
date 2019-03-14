@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>light_mapping</name>
+  <name>mapping_triangle</name>
   <version>1.0.0</version>
   <description>The light_mapping package</description>
 

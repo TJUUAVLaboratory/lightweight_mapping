@@ -1,1 +1,3 @@
-/home/ygling2008/new_catkin_ws/src/ORB_SLAM2/Thirdparty/g2o/build/CMakeFiles/g2o.dir
+/home/ubuntu/coding/ros-mapping-ws/src/triangle_mapping/Thirdparty/g2o/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/coding/ros-mapping-ws/src/triangle_mapping/Thirdparty/g2o/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/coding/ros-mapping-ws/src/triangle_mapping/Thirdparty/g2o/build/CMakeFiles/g2o.dir
